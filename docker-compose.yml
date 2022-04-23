@@ -1,7 +1,7 @@
 version: "3"
 services:
   spring:
-    image: 388006094889.dkr.ecr.ap-south-1.amazonaws.com/spring-boot-docker:VERSION
+    image: kaushikbl/spring-boot-mongo-docker:VERSION
     ports:
     - 5555:8080
     networks:
